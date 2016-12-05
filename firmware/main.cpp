@@ -45,6 +45,6 @@ void setup()
 
 void loop()
 {
-   analogvalue = adc.readADC(0); // Read from CH0
+   analogvalue = adc.readADC(0); // Read from CH0, and update Particle variable
    delay(100);
 }
