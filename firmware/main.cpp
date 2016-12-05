@@ -45,6 +45,6 @@ void setup()
 
 void loop()
 {
-   analogvalue = adc.readADC(0);
+   analogvalue = adc.readADC(0); // Read from CH0
    delay(100);
 }
